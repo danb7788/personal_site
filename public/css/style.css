@@ -59,7 +59,7 @@ p {
     outline: none;
 }
 
-.navbar {
+.navbar, .dropdown-item {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 13px;
