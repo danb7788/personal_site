@@ -17,4 +17,13 @@ class PagesController extends Controller
     public function about() {
         return view('about');
     }
+
+    public function articles() {
+        return view('writing.articles');
+    }
+
+    public function books() {
+        $wide = true;
+        return view('writing.books')->with('wide', $wide);
+    }
 }

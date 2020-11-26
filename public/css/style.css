@@ -7,28 +7,29 @@
 html {
     position: relative;
     min-height: 100%;
-  }
-  body {
+}
+body {
     margin-bottom: 150px; /* Margin bottom by footer height */
-  }
+}
 
-  .footer {
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    line-height: 60px; /* Vertically center the text there */
+    line-height: 20px; /* Vertically center the text there */
     height: 150px; /* Set the fixed height of the footer here */
-  }
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+  
+  footer p {
+    margin-bottom: .25rem;
+}
 
   /* End of sticky footer */
-
-a {
-    color:black !important;
-}
-
-a:hover {
-    color: #111;
-}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -46,13 +47,22 @@ img {
 }
 
 h1, h2 {
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
 p {
     margin-top: 3rem;
     margin-bottom: 2rem;
+}
+
+
+a {
+    color:black !important;
+}
+
+a:hover {
+    color: #111;
 }
 
 .navbar-toggler:focus {
@@ -64,53 +74,4 @@ p {
     letter-spacing: 2px;
     font-size: 13px;
 }
-
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-    }
-}
-
-.jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
-  }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-  }
-  
-  .jumbotron p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .jumbotron h1 {
-    font-weight: 300;
-  }
-  
-  .jumbotron .container {
-    max-width: 40rem;
-  }
-  
-  footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-  
-  footer p {
-    margin-bottom: .25rem;
-  }
   
