@@ -48,25 +48,21 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="design" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
                     <div class="dropdown-menu" aria-labelledby="design">
-                        <a class="dropdown-item" href="/design/t-shirs">T-Shirts</a>
-                        <a class="dropdown-item" href="/design/logos">Logos</a>
+                        <a class="dropdown-item" href="/design/t-shirts">T-Shirts</a>
                         <a class="dropdown-item" href="/design/album-covers">Album Covers</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Design</a>
+                    <a class="nav-link" href="/coding">Coding</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Coding</a>
+                    <a class="nav-link" href="podcasting">Podcasting</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Podcasting</a>
+                    <a class="nav-link" href="/music">Music</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Music</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Consulting</a>
+                    <a class="nav-link" href="consulting">Consulting</a>
                 </li>
             </ul>
         </div>

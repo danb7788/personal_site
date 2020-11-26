@@ -26,4 +26,30 @@ class PagesController extends Controller
         $wide = true;
         return view('writing.books')->with('wide', $wide);
     }
+
+    public function shirts() {
+        $wide = true;
+        return view('design.shirts')->with('wide', $wide);
+    }
+
+    public function albums() {
+        $wide = true;
+        return view('design.albums')->with('wide', $wide);
+    }
+
+    public function coding() {
+        return view('coding');
+    }
+
+    public function podcasting() {
+        return view('podcasting');
+    }
+
+    public function music() {
+        return view('music');
+    }
+
+    public function consulting() {
+        return view('consulting');
+    }
 }
