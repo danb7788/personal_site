@@ -35,8 +35,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-section {
-    margin-top: 2rem;
+@media (max-width: 767px) {
+    section {
+        margin-top: 1rem;
+    }
 }
 
 @media (min-width: 768px) {
