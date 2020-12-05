@@ -24,44 +24,46 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm pt-3">
-        <a class="nav-link" href="/">Dan Berges</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-            </span>
-        </button>  
-        <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/companies">Companies</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="writing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Writing</a>
-                    <div class="dropdown-menu" aria-labelledby="writing">
-                        <a class="dropdown-item" href="/writing/articles">Articles</a>
-                        <a class="dropdown-item" href="/writing/books">Books</a>
-                        <a class="dropdown-item" target="_blank" href="https://danberges.wordpress.com/">Fiction</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/coding">Coding</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="podcasting">Podcasting</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/music">Music</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="consulting">Consulting</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-sm pt-3">
+            <a class="nav-link" href="/">Dan Berges</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </span>
+            </button>  
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/companies">Companies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="writing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Writing</a>
+                        <div class="dropdown-menu" aria-labelledby="writing">
+                            <a class="dropdown-item" href="/writing/articles">Articles</a>
+                            <a class="dropdown-item" href="/writing/books">Books</a>
+                            <a class="dropdown-item" target="_blank" href="https://danberges.wordpress.com/">Fiction</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coding">Coding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="podcasting">Podcasting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consulting">Consulting</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main role="main" @if(!isset($wide)) class="container" @else class="container-fluid" @endif>
         @yield('content')

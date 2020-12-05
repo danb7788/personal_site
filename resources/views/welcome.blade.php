@@ -1,6 +1,6 @@
 @extends('layouts.main') 
 @section('content')
-<section class="text-center">
+<section class="text-center" style="margin-top: 5rem">
     <div class="container mt-5">
         <h1>Dan Berges</h1>
         <p class="lead text-muted mt-4">
