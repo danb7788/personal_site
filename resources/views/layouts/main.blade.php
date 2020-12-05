@@ -52,13 +52,13 @@
                         <a class="nav-link" href="/coding">Coding</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="podcasting">Podcasting</a>
+                        <a class="nav-link" href="/podcasting">Podcasting</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/music">Music</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="consulting">Consulting</a>
+                        <a class="nav-link" href="/consulting">Consulting</a>
                     </li>
                 </ul>
             </div>
