@@ -1,7 +1,7 @@
 @extends('layouts.main') 
 @section('content')
 <section class="text-center">
-    <div class="container mt-5">
+    <div class="container">
         <h1>About</h1>
         <img src="/images/dan.jpg" class="img-fluid" alt="Responsive image">
         <p>I’m a Madrid-born, NYC-based entrepreneur with a background in arts, education, and computer programming. I build and develop sustainable growth models for small businesses based on complex systems that promote logistical efficiency and customer retention.</p> 

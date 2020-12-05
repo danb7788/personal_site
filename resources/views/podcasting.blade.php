@@ -1,7 +1,7 @@
 @extends('layouts.main') 
 @section('content')
 <section class="text-center">
-    <div class="container mt-5">
+    <div class="container">
         <h1>Podcasting</h1>
         <a target="_blank" href="https://podcasts.apple.com/us/podcast/s%C3%A1bado-a-la-noche-con-dan-berges/id1485129955">
             <h3>My podcast: Sábado a la noche con Dan Berges</h2>

@@ -1,7 +1,7 @@
 @extends('layouts.main') 
 @section('content')
 <section class="text-center">
-    <div class="container mt-5">
+    <div class="container">
         <h1>Consulting</h1>
         <p style="margin-top:1em">I do consulting in the following areas:</p>
         <p>

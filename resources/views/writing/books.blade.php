@@ -1,7 +1,7 @@
 @extends('layouts.main') 
 @section('content')
 <section class="text-center">
-    <div class="px-4 mt-5">
+    <div class="px-4">
         <h1>Books</h1>
         <div class="row">
             <div class="col-sm">

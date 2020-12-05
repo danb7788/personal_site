@@ -1,7 +1,7 @@
 @extends('layouts.main') 
 @section('content')
 <section class="text-center">
-    <div class="container mt-5">
+    <div class="container">
         <h1>Companies</h1>
         <a target="_blank" href="https://www.bergesinstitutespanish.com/"><h2>Berges Institute</h2></a>
         <a target="_blank" href="https://www.bergesinstitutespanish.com/"><img src="/images/berges.jpg" class="img-fluid" alt="Berges Institute"></a>

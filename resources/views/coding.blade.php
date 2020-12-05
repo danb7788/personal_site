@@ -1,7 +1,7 @@
 @extends('layouts.main') 
 @section('content')
 <section class="text-center">
-    <div class="container mt-5">
+    <div class="container">
         <h1>Coding</h1>
         <a target="_blank" href="https://github.com/danb7788/bootstrap_cart">
             <h3>Super nimble front-end cart</h2>

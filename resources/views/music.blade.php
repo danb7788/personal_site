@@ -1,7 +1,7 @@
 @extends('layouts.main') 
 @section('content')
 <section class="text-center">
-    <div class="container mt-5">
+    <div class="container">
         <h1>Music</h1>
         <a target="_blank" href="https://www.pammizacharia.com/">
             <h3>My folk band, Pammi Zacharia</h2>
