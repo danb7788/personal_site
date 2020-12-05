@@ -45,13 +45,6 @@
                         <a class="dropdown-item" target="_blank" href="https://danberges.wordpress.com/">Fiction</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="design" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
-                    <div class="dropdown-menu" aria-labelledby="design">
-                        <a class="dropdown-item" href="/design/t-shirts">T-Shirts</a>
-                        <a class="dropdown-item" href="/design/album-covers">Album Covers</a>
-                    </div>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/coding">Coding</a>
                 </li>

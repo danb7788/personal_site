@@ -18,8 +18,6 @@ Route::get('/companies', 'PagesController@companies');
 Route::get('/about', 'PagesController@about');
 Route::get('/writing/articles', 'PagesController@articles');
 Route::get('/writing/books', 'PagesController@books');
-Route::get('/design/t-shirts', 'PagesController@shirts');
-Route::get('/design/album-covers', 'PagesController@albums');
 Route::get('/coding', 'PagesController@coding');
 Route::get('/podcasting', 'PagesController@podcasting');
 Route::get('/music', 'PagesController@music');

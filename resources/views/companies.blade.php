@@ -3,12 +3,12 @@
 <section class="text-center">
     <div class="container mt-5">
         <h1>Companies</h1>
-        <h2>Berges Institute</h2>
-        <img src="/images/berges.jpg" class="img-fluid" alt="Berges Institute">
-        <p>The best Spanish language school for adults in NYC and Chicago! Mauris condimentum sapien pretium ex elementum malesuada sit amet in velit. Praesent dignissim sapien volutpat vehicula dictum. Vivamus et aliquam magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ut vulputate diam, tincidunt faucibus est.</p> 
-        <h2>Dwight</h2>
-        <img src="/images/dwight.png" class="img-fluid" alt="Dwight Task Manager">
-        <p>Task management software based on Eisenhower's Box. Nullam et luctus dolor. Nullam viverra pretium sem in dapibus. Cras ante mi, finibus tristique posuere sed, porta vitae lorem. Donec vitae est scelerisque nisi tempus scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur blandit molestie elit imperdiet vestibulum. Nullam sed arcu accumsan odio blandit accumsan vel ut orci. </p> 
+        <a target="_blank" href="https://www.bergesinstitutespanish.com/"><h2>Berges Institute</h2></a>
+        <a target="_blank" href="https://www.bergesinstitutespanish.com/"><img src="/images/berges.jpg" class="img-fluid" alt="Berges Institute"></a>
+        <p>Berges Institute is a Spanish language school for adults with centers in NYC and Chicago. It offers group classes and private lessons for 1,200+ students. Berges was founded in 2013 by Dan Berges and Vanessa Montilla, and is still managed by the founding team.</p> 
+        <a target="_blank" href="https://dwightapp.com/"><h2>Dwight</h2></a>
+        <a target="_blank" href="https://dwightapp.com/"><img src="/images/dwight.png" class="img-fluid" alt="Dwight Task Manager"></a>
+        <p>Dwight is a task management solution based on Eisenhower's Box with a simple, clean interface. It lets you classify your to-do items as urgent and important, urgent but not important, important but not urgent, or not urgent and not important.</p> 
     </div>
 </section>
 @stop

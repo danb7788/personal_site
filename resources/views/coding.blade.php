@@ -10,7 +10,7 @@
         <a target="_blank" href="https://github.com/danb7788/chart">
             <h3>18-month cash burn calculator</h2>
         </a>
-        <p style="margin-top:1em">Simple, non-persistant one page chart with data inputs. <a target="_blank" href="https://danb7788.github.io/chart/">Demo here</a>.</p> 
+        <p style="margin-top:1em">Simple, non-persistent, one-page chart with data inputs. <a target="_blank" href="https://danb7788.github.io/chart/">Demo here</a>.</p> 
         <a target="_blank" href="https://dwightapp.com">
             <h3>Dwight</h2>
         </a>
