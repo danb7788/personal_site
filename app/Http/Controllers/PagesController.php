@@ -7,39 +7,75 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function welcome() {
-        return view('welcome');
+        $title = 'Dan Berges';
+        $description = 'Personal website for NYC-based entrepreneur Dan Berges';
+
+        return view('welcome')
+        ->with('title', $title)->with('description', $description);
     }
 
     public function companies() {
-        return view('companies');
+        $title = 'Companies';
+        $description = 'Companies Dan Berges has founded';
+
+        return view('companies')
+        ->with('title', $title)->with('description', $description);
     }
 
     public function about() {
-        return view('about');
+        $title = 'About';
+        $description = 'About Dan Berges';
+
+        return view('about')
+        ->with('title', $title)->with('description', $description);
     }
 
     public function articles() {
-        return view('writing.articles');
+        $title = 'Articles';
+        $description = 'Articles written by Dan Berges';
+
+        return view('writing.articles')
+        ->with('title', $title)->with('description', $description);
     }
 
     public function books() {
         $wide = true;
-        return view('writing.books')->with('wide', $wide);
+        $title = 'Books';
+        $description = 'Books written by Dan Berges';
+
+        return view('writing.books')->with('wide', $wide)
+        ->with('title', $title)->with('description', $description);
     }
 
     public function coding() {
-        return view('coding');
+        $title = 'Coding';
+        $description = "Dan Berges' coding projects";
+
+        return view('coding')
+        ->with('title', $title)->with('description', $description);
     }
 
     public function podcasting() {
-        return view('podcasting');
+        $title = 'Podcasting';
+        $description = "Dan Berges' podcasting projects";
+
+        return view('podcasting')
+        ->with('title', $title)->with('description', $description);
     }
 
     public function music() {
-        return view('music');
+        $title = 'Music';
+        $description = "Dan Berges' music projects";
+
+        return view('music')
+        ->with('title', $title)->with('description', $description);
     }
 
     public function consulting() {
-        return view('consulting');
+        $title = 'Consulting';
+        $description = "Contact Dan Berges to inquire about consulting rates and availability";
+
+        return view('consulting')
+        ->with('title', $title)->with('description', $description);
     }
 }
