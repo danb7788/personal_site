@@ -47,12 +47,20 @@ class PagesController extends Controller
         ->with('title', $title)->with('description', $description);
     }
 
-    public function coding() {
-        $title = 'Coding';
-        $description = "Dan Berges' coding projects";
+    public function projects() {
+        $title = 'Projects';
+        $description = "Dan Berges' personal projects";
 
-        return view('coding')
+        return view('projects')
         ->with('title', $title)->with('description', $description);
+    }
+
+    public function courses() {
+        $title = 'Courses';
+        $description = "Dan Berges' courses on Skillshare";
+
+        return view('courses')
+            ->with('title', $title)->with('description', $description);
     }
 
     public function podcasting() {

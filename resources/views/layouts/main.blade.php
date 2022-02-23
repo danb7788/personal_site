@@ -49,7 +49,10 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/coding">Coding</a>
+                        <a class="nav-link" href="/projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/courses">Courses</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/podcasting">Podcasting</a>
