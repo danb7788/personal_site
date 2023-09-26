@@ -242,5 +242,17 @@
 
     <!-- JS -->
     <script src="{{ mix('js/app.js') }}"></script>
+
+    <script>
+        (function() {
+            const collapsable = document.querySelector('.navbar-collapse');
+
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(item => item.addEventListener('click', () => {
+                collapsable.classList.remove('show');
+            }));
+        })();
+    </script>
 </body>
 </html>
