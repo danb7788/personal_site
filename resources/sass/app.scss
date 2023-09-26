@@ -1,0 +1,84 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom styles
+
+.container {
+    max-width: 850px;
+}
+
+.narrow {
+    max-width: 700px;
+}
+
+.extra-narrow {
+    max-width: 600px;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;                  /* establish flex container */
+    flex-direction: column;         /* align child elements ("flex items") vertically */
+    justify-content: space-between; /* pin both flex items to opposite ends */
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Source Sans', sans-serif;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h3:before {
+    content: "# ";
+    color: orange;
+}
+
+section {
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    section {
+        margin-top: 3rem;
+    }
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    border: none !important;
+    padding: 0 !important;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.navbar, .dropdown-item {
+    text-transform: uppercase;
+    font-size: 13px;
+}
