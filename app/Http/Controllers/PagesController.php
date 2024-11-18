@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\View\View;
+
 class PagesController extends Controller
 {
-    public function welcome() {
-        $title = 'Home';
-        $description = 'Personal website for NYC-based entrepreneur Dan Berges';
-
-        return view('main')
-        ->with('title', $title)->with('description', $description);
+    public function welcome(): View
+    {
+        return view('main');
     }
 }
