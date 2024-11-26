@@ -3,10 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{{ __('Official site for Spanish content creator, teacher, author and entrepreneur Dan Berges') }}">
-    <title>Dan Berges — {{ __('Content creator, teacher, and entrepreneur') }}</title>
+    <meta name="description" content="{{ __('Official site for Spanish educator, author and entrepreneur Dan Berges') }}">
+    <title>Dan Berges — {{ __('Educator, author and entrepreneur') }}</title>
     <link rel="icon" type="image/png" href="{{ asset('images/dan_favicon.png') }}">
     <meta property="og:image:url" content="{{ asset('images/dan.jpg') }}" />
+
+    <link rel = “alternate” href = “https://www.danberges.es” hreflang = “es” />
+    <link rel = “alternate” href = “https://www.danberges.com” hreflang = “en” />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -49,6 +52,11 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#{{ Str::slug(__('Contact')) }}">{{ __('Contact') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ app()->getLocale() === 'en' ? 'https://www.danberges.es' : 'https://www.danberges.com' }}">
+                                {{ app()->getLocale() === 'en' ? 'Spanish' : 'Inglés' }}
+                            </a>
                         </li>
                     </ul>
                 </div>
