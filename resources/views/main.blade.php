@@ -72,13 +72,13 @@
         <section id="{{ Str::slug(__('Bio')) }}">
             <h2>{{ __('Bio') }}</h2>
             @if (app()->getLocale() === 'es')
-                <p>Soy un emprendedor y creador de contenidos español nacido en Madrid con <i>background</i> en arte, educación, lingüística y programación.
-                    Publico sobre todo contenidos <i>short form</i> en Instagram, YouTube y TikTok sobre gramática, semántica y pragmática.</p>
+                <p>Soy un profesor, autor y empresario español nacido en Madrid con <i>background</i> en arte, educación, lingüística y programación.
+                    Publico contenidos en Instagram, YouTube y TikTok sobre gramática, semántica y pragmática.</p>
                 <p>Fundé <a target="_blank" href="https://www.bergesinstitutespanish.com/">Berges Institute</a>
                     en 2013 en Nueva York, y después de vivir en Estados Unidos durante 15 años me volví a Madrid, donde vivo actualmente.</p>
             @else
-                <p>I’m a Madrid-born Spanish entrepreneur and content creator with a background in arts, education, linguistics and computer programming.
-                    I publish mostly short-form content on Instagram, YouTube and TikTok about grammar, semantics, and pragmatics.</p>
+                <p>I’m a Madrid-born Spanish educator, author and entrepreneur with a background in arts, education, linguistics and computer programming.
+                    I publish content on Instagram, YouTube and TikTok about grammar, semantics, and pragmatics.</p>
                 <p>I founded <a target="_blank" href="https://www.bergesinstitutespanish.com/">Berges Institute</a>
                     in 2013 in New York City, and after living in the United States for 15 years moved
                     back to Madrid, Spain, where I currently live.</p>
