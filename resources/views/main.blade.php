@@ -39,16 +39,16 @@
                             <a class="nav-link" href="#{{ Str::slug(__('Books')) }}">{{ __('Books') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#{{ Str::slug(__('Fiction')) }}">{{ __('Fiction') }}</a>
+                            <a class="nav-link" href="#{{ Str::slug(__('In the press')) }}">{{ __('In the press') }}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#{{ Str::slug(__('Courses')) }}">{{ __('Courses') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#{{ Str::slug(__('Podcasts')) }}">{{ __('Podcasts') }}</a>
+                            <a class="nav-link" href="#{{ Str::slug(__('Fiction')) }}">{{ __('Fiction') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#{{ Str::slug(__('In the press')) }}">{{ __('In the press') }}</a>
+                            <a class="nav-link" href="#{{ Str::slug(__('Podcasts')) }}">{{ __('Podcasts') }}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#{{ Str::slug(__('Contact')) }}">{{ __('Contact') }}</a>
@@ -145,54 +145,14 @@
             <p class="mt-2">Subjunctive, Conditional and Imperative</p>
         </section>
 
-        <section id="{{ Str::slug(__('Fiction')) }}">
-            <h2>{{ __('Fiction') }}</h2>
-            <a target="_blank" href="https://danberges.wordpress.com/">
-                <h3>Luces de neón</h3>
-            </a>
-            <p class="mt-2">{{ __('Short stories') }}, 2014 - 2017</p>
-        </section>
-
-        <section id="{{ Str::slug(__('Courses')) }}">
-            <h2>{{ __('Courses') }}</h2>
-            <a target="_blank" href="https://www.skillshare.com/en/classes/CSS-Flexbox-Demystified/1512187596">
-                <h3>CSS Flexbox Demystified</h3>
-            </a>
-            <p class="mt-2">Skillshare | {{ \Carbon\Carbon::parse('2022-05')->format(__('Y-m')) }}</p>
-
-            <a target="_blank" href="https://skl.sh/3rzzr7O">
-                <h3>How to Produce, Record, Edit and Publish a Podcast: A Guide</h3>
-            </a>
-            <p class="mt-2">Skillshare | {{ \Carbon\Carbon::parse('2022-01')->format(__('Y-m')) }}</p>
-
-            <a target="_blank" href="https://skl.sh/3zdrrN1">
-                <h3>Generative Art for NFTs with JavaScript and p5js</h3>
-            </a>
-            <p class="mt-2">Skillshare | {{ \Carbon\Carbon::parse('2021-12')->format(__('Y-m')) }}</p>
-        </section>
-
-        <section id="{{ Str::slug(__('Podcasts')) }}">
-            <h2>{{ __('Podcasts') }}</h2>
-            <a target="_blank" href="https://youtu.be/3F2c9JMbXBM?si=Fvby4DTPdPPyln0i">
-                <h3>Surveying Black Swan Events with Digital Transformation</h3>
-            </a>
-            <p class="mt-2">Intel Business | {{ \Carbon\Carbon::parse('2024-02-29')->format(__('Y-m-d')) }}</p>
-            <a target="_blank" href="https://podcasters.spotify.com/pod/show/brainsbb/episodes/How-Learning-a-New-Language-can-Significantly-Delay-the-Onset-of-Alzheimers-Disease--Dementia-e234nuc/a-a9ubjfd">
-                <h3>How Learning a New Language can Significantly Delay the Onset of Alzheimer's Disease & Dementia</h3>
-            </a>
-            <p class="mt-2">Brains Byte Back | {{ \Carbon\Carbon::parse('2023-06-02')->format(__('Y-m-d')) }}</p>
-            <a target="_blank" href="http://www.otherberkleealumni.com/2020/05/20/successful-berklee-alumni-181-dan-berges/">
-                <h3>Successful Berklee Alumni #181: Dan Berges</h3>
-            </a>
-            <p class="mt-2">Other Berklee Alumni | {{ \Carbon\Carbon::parse('2020-05-20')->format(__('Y-m-d')) }}</p>
-            <a target="_blank" href="https://podcasts.apple.com/us/podcast/s%C3%A1bado-a-la-noche-con-dan-berges/id1485129955">
-                <h3>Sábado a la noche con Dan Berges</h3>
-            </a>
-            <p class="mt-2">{{ __('My podcast') }} | 2019-2020</p>
-        </section>
-
         <section id="{{ Str::slug(__('In the press')) }}">
             <h2>{{ __('In the press') }}</h2>
+
+            <a target="_blank" href="https://www.elplural.com/playtime/dan-berges-linguista-viral-convirtio-tiktok-clase-semantica_349264102">
+                <h3>Dan Berges: el lingüista viral que convirtió TikTok en una clase de semántica</h3>
+            </a>
+            <p class="mt-2">El Plural | {{ \Carbon\Carbon::parse('2025-03-30')->format(__('Y-m-d')) }}</p>
+
             <a target="_blank" href="https://www.larazon.es/cultura/texto-espanol-cree-antiguo-existe/20241113/1135018.html">
                 <h3>El texto en español que se cree que es el más antiguo que existe</h3>
             </a>
@@ -247,6 +207,52 @@
                 <h3>El viaje de un emprendedor para construir una cadena de escuelas de español en Estados Unidos</h3>
             </a>
             <p class="mt-2">El Nacional | {{ \Carbon\Carbon::parse('2023-06-10')->format(__('Y-m-d')) }}</p>
+        </section>
+
+        <section id="{{ Str::slug(__('Courses')) }}">
+            <h2>{{ __('Courses') }}</h2>
+            <a target="_blank" href="https://www.skillshare.com/en/classes/CSS-Flexbox-Demystified/1512187596">
+                <h3>CSS Flexbox Demystified</h3>
+            </a>
+            <p class="mt-2">Skillshare | {{ \Carbon\Carbon::parse('2022-05')->format(__('Y-m')) }}</p>
+
+            <a target="_blank" href="https://skl.sh/3rzzr7O">
+                <h3>How to Produce, Record, Edit and Publish a Podcast: A Guide</h3>
+            </a>
+            <p class="mt-2">Skillshare | {{ \Carbon\Carbon::parse('2022-01')->format(__('Y-m')) }}</p>
+
+            <a target="_blank" href="https://skl.sh/3zdrrN1">
+                <h3>Generative Art for NFTs with JavaScript and p5js</h3>
+            </a>
+            <p class="mt-2">Skillshare | {{ \Carbon\Carbon::parse('2021-12')->format(__('Y-m')) }}</p>
+        </section>
+
+        <section id="{{ Str::slug(__('Fiction')) }}">
+            <h2>{{ __('Fiction') }}</h2>
+            <a target="_blank" href="https://danberges.wordpress.com/">
+                <h3>Luces de neón</h3>
+            </a>
+            <p class="mt-2">{{ __('Short stories') }}, 2014 - 2017</p>
+        </section>
+
+        <section id="{{ Str::slug(__('Podcasts')) }}">
+            <h2>{{ __('Podcasts') }}</h2>
+            <a target="_blank" href="https://youtu.be/3F2c9JMbXBM?si=Fvby4DTPdPPyln0i">
+                <h3>Surveying Black Swan Events with Digital Transformation</h3>
+            </a>
+            <p class="mt-2">Intel Business | {{ \Carbon\Carbon::parse('2024-02-29')->format(__('Y-m-d')) }}</p>
+            <a target="_blank" href="https://podcasters.spotify.com/pod/show/brainsbb/episodes/How-Learning-a-New-Language-can-Significantly-Delay-the-Onset-of-Alzheimers-Disease--Dementia-e234nuc/a-a9ubjfd">
+                <h3>How Learning a New Language can Significantly Delay the Onset of Alzheimer's Disease & Dementia</h3>
+            </a>
+            <p class="mt-2">Brains Byte Back | {{ \Carbon\Carbon::parse('2023-06-02')->format(__('Y-m-d')) }}</p>
+            <a target="_blank" href="http://www.otherberkleealumni.com/2020/05/20/successful-berklee-alumni-181-dan-berges/">
+                <h3>Successful Berklee Alumni #181: Dan Berges</h3>
+            </a>
+            <p class="mt-2">Other Berklee Alumni | {{ \Carbon\Carbon::parse('2020-05-20')->format(__('Y-m-d')) }}</p>
+            <a target="_blank" href="https://podcasts.apple.com/us/podcast/s%C3%A1bado-a-la-noche-con-dan-berges/id1485129955">
+                <h3>Sábado a la noche con Dan Berges</h3>
+            </a>
+            <p class="mt-2">{{ __('My podcast') }} | 2019-2020</p>
         </section>
 
         <section id="{{ Str::slug(__('Contact')) }}">
